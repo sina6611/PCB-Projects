@@ -1,0 +1,17 @@
+Reference,Value,Footprint,Qty,Function
+U1,74AHCT244PW,TSSOP-20,1,Stepper outputs group 1
+U2,74AHCT244PW,TSSOP-20,1,Stepper outputs group 2
+U3,74AHCT244PW,TSSOP-20,1,Stepper + D8/D9/D10 outputs
+U4,74LVC541APW,TSSOP-20,1,Endstop 5V-tolerant input buffer
+R1-R18,47R,0603,18,Series resistors on buffered digital outputs
+R19-R21,100k 1%,0603,3,Thermistor divider upper
+R22-R24,200k 1%,0603,3,Thermistor divider lower
+C1-C4,100nF X7R,0603,4,Logic decoupling
+C5-C7,100nF X7R,0603,3,ADC low-pass filters
+C8,4.7uF 10V,0805,1,+5V logic bulk
+C9,4.7uF 10V,0805,1,+3V3 logic bulk
+J1,NUCLEO Zio CN7 mate,2x21 2.54mm male stack,1,Bottom mating header
+J2,NUCLEO Zio CN8 mate,2x8 2.54mm male stack,1,Bottom mating header
+J3,NUCLEO Zio CN9 mate,2x21 2.54mm male stack,1,Bottom mating header
+J4,NUCLEO Zio CN10 mate,2x21 2.54mm male stack,1,Bottom mating header
+J5-J8,Arduino Mega/RAMPS header set,2.54mm female stack,1 set,Top RAMPS mating headers
