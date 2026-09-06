@@ -1,0 +1,29 @@
+#pragma once
+// RAMPS 1.4 -> NUCLEO-F767ZI Zio-only adapter RC1
+#define X_STEP_PIN      PA0
+#define X_DIR_PIN       PD13
+#define X_ENABLE_PIN    PD12
+#define Y_STEP_PIN      PB0
+#define Y_DIR_PIN       PD11
+#define Y_ENABLE_PIN    PE2
+#define Z_STEP_PIN      PB10
+#define Z_DIR_PIN       PE0
+#define Z_ENABLE_PIN    PE15
+#define E0_STEP_PIN     PB7
+#define E0_DIR_PIN      PE14
+#define E0_ENABLE_PIN   PE12
+#define E1_STEP_PIN     PE10
+#define E1_DIR_PIN      PE8
+#define E1_ENABLE_PIN   PE7
+#define X_MIN_PIN       PC8
+#define X_MAX_PIN       PC9
+#define Y_MIN_PIN       PC10
+#define Y_MAX_PIN       PC11
+#define Z_MIN_PIN       PC12
+#define Z_MAX_PIN       PD2
+#define TEMP_0_PIN      PA3
+#define TEMP_1_PIN      PC0
+#define TEMP_BED_PIN    PC3
+#define HEATER_0_PIN    PD14
+#define FAN0_PIN        PD15
+#define HEATER_BED_PIN  PF12
