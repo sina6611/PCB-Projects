@@ -1,0 +1,20 @@
+Reference,Qty,Part,Package,Function,Notes
+U1-U3,3,74AHCT244PW,TSSOP-20,3.3V-to-5V translation,18 outputs used total
+U4,1,74LVC541APW,TSSOP-20,5V-tolerant endstop buffer,Powered from 3.3V
+R_SER1-R_SER18,18,47 ohm 1%,0603,Series damping,Place near AHCT outputs
+R_TTOP1-R_TTOP3,3,100k 1%,0603,Thermistor divider top,
+R_TBOT1-R_TBOT3,3,200k 1%,0603,Thermistor divider bottom,
+C_ADC1-C_ADC3,3,100nF X7R,0603,ADC low-pass filter,Place near CN9 side
+C_U1-C_U4,4,100nF X7R,0603,IC decoupling,Place at each VCC pin
+C_5V_BULK,1,4.7uF X7R,0805,5V logic bulk,
+C_3V3_BULK,1,4.7uF X7R,0805,3.3V logic bulk,
+J_RAMPS_SET,1,Arduino Mega/RAMPS female header set,2.54mm THT,RAMPS 1.4 mating,Exact geometry must match Mega 2560 shield pattern
+J_CN7,1,2x10 male header,2.54mm THT,NUCLEO CN7 mating,Bottom side
+J_CN8,1,2x8 male header,2.54mm THT,NUCLEO CN8 mating,Bottom side
+J_CN9,1,2x15 male header,2.54mm THT,NUCLEO CN9 mating,Bottom side
+J_CN10,1,2x17 male header,2.54mm THT,NUCLEO CN10 mating,Bottom side
+TP_PWR,3,Test point,THT/SMD,3V3/5V/GND test points,
+TP_STEP,5,Test point,THT/SMD,STEP test points,X/Y/Z/E0/E1
+TP_PWM,3,Test point,THT/SMD,D8/D9/D10 translated outputs,
+TP_TEMP,3,Test point,THT/SMD,ADC nodes,
+TP_ENDSTOP,6,Test point,THT/SMD,Buffered endstop outputs,
